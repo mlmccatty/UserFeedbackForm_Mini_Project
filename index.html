@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--suppress HtmlFormInputWithoutLabel -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel = "stylesheet" href = "./css/index.css">
+</head>
+
+<body>
+  <div id = "form-container-1">
+      <div id = "header-container-1">
+        <h2>Contact Us</h2>
+      </div>
+      <div id = "labels-container-1">
+        <p class = "labelsClass1" id = "firstNameLabel">First Name</p>
+        <p class = "labelsClass1" id = "lastNameLabel">Last Name</p>
+        <p class = "labelsClass1" id = "emailLabel">Email</p>
+        <p class = "labelsClass1" id = "phoneNumberLabel">Phone Number</p>
+        <p class = "labelsClass1" id = "orderNumberLabel">Order Number</p>
+        <p class = "labelsClass1" id = "inquiryLabel">Inquiry</p>
+      </div>
+      <div id = "inputs-container">
+        <input class = "inputs-container__input inputs-container__input-textarea" id = "firstNameInput" type = "text">
+        <input class = "inputs-container__input inputs-container__input-textarea" id = "lastNameInput" type = "text">
+        <input class = "inputs-container__input inputs-container__input-textarea" id = "emailInput" type = "text">
+        <input class = "inputs-container__input inputs-container__input-textarea" id = "phoneNumberInput" type = "text">
+        <input class = "inputs-container__input inputs-container__input-textarea" id = "orderNumberInput" type = "text">
+        <textarea class = "inputs-container__input-textarea" id = "inquiry-input"></textarea>
+      </div>
+      <button id = "submit-button">Submit</button>
+    </div>
+  <div id = "form-container-2">
+    <div id = "header-container-2">
+      <h2>Ticket #<span id = "ticketId"></span></h2>
+    </div>
+    <div id = "labels-container-2">
+      <p class = "labelsClass2" id = "firstNameLabel1">First Name:</p>
+      <p class = "labelsClass2" id = "lastNameLabel1">Last Name:</p>
+      <p class = "labelsClass2" id = "emailLabel1">Email:</p>
+      <p class = "labelsClass2" id = "phoneNumberLabel1">Phone Number:</p>
+      <p class = "labelsClass2" id = "orderNumberLabel1">Order Number:</p>
+      <p class = "labelsClass2" id = "inquiryLabel1">Inquiry:</p>
+    </div>
+    <div id = "display-container">
+      <p class = "display-div__paragraph" id = "firstNameDisplay"></p>
+      <p class = "display-div__paragraph" id = "lastNameDisplay"></p>
+      <p class = "display-div__paragraph" id = "emailDisplay"></p>
+      <p class = "display-div__paragraph" id = "phoneNumberDisplay"></p>
+      <p class = "display-div__paragraph" id = "orderNumberDisplay"></p>
+      <p id = "inquiry-display"></p>
+    </div>
+  </div>
+<script src = ./js/index.js></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+/* LEFT SIDE /*
+/* Holding Container */
+#form-container-1 {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  width: 795px;
+  height: 725px;
+  border-radius: 20px;
+}
+/* Header */
+#header-container-1 {
+  position: absolute;
+  left: 4%;
+  top: 1%;
+}
+/* Labels */
+#labels-container-1 {
+  position: absolute;
+  left: 4%;
+  top: 12%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Inputs */
+#inputs-container {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  width: 490px;
+  height: 564px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#inquiry-input {
+  width: 480px;
+  height: 209px;
+  padding: 2px;
+  resize: none;
+}
+.inputs-container__input {
+  width: 347px;
+  height: 39px;
+}
+.inputs-container__input-textarea {
+  border: solid 1px black;
+}
+/* Button */
+#submit-button {
+  width: 90px;
+  height: 50px;
+  position: absolute;
+  top: 94%;
+  left: 25%;
+}
+/* RIGHT SIDE */
+/* Holding Container */
+#form-container-2 {
+  position: absolute;
+  top: 12px;
+  left: 978px;
+  width: 600px;
+  height: 725px;
+}
+/* Headers */
+#header-container-2 {
+  position: absolute;
+  top: 1%;
+}
+/* Labels */
+#labels-container-2 {
+  height: 412px;
+  position: absolute;
+  top: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Displays */
+#display-container {
+  height: 570px;
+  width: 490px;
+  position: absolute;
+  top: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#inquiry-display {
+  margin: 0;
+  height: 209px;
+  width: 480px;
+  border: 1px solid black;
+  resize: none;
+}
+.display-div__paragraph {
+  height: 39px;
+width: 347px;
+  margin: 0;
+  border: 1px solid black;
+}
+
